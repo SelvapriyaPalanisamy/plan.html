@@ -1,0 +1,122 @@
+*{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right:30px;
+    font-family: "Inter",sans-serif;
+    box-sizing:border-box;
+    min-width:100px;
+    background-color: black;
+    align-items: center;
+    
+    
+}
+body{
+    height: 800px;
+    
+    background-size: cover;
+    display:grid;
+    align-items: center;
+}
+table{
+    width:600px;
+    box-shadow:-1px 12px 12px -6px rgba(0,0,0,0,5);
+
+}
+table,td,th{
+    padding: 20px;
+    order:1px solid lightgray;
+    border-collapse: collapse;
+    text-align:center;
+    color:white;
+}
+td{
+    font-size:30px;
+
+}
+th{
+    
+    color:white;
+    font-size:30px;
+}
+.th,th:hover{
+    color:lightslategrey;
+}
+.button1{
+    background-color:rgb(111, 111, 170);
+    font-weight: bold;
+    font-size: 29px;
+    color:white;
+    border-width: 90px;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left:110px;
+}
+.button2{
+    box-sizing: content-box;
+    background-color: black;
+    font-weight: bold;
+    font-size: 25px;
+    color:white;
+    margin:30px;
+    padding:20px;
+    border-color: white;
+    border-radius:10px;
+}
+.button3{
+    box-sizing: content-box;
+    background-color:black;
+    font-weight: bold;
+    font-size: 25px;
+    color:white;
+    margin:20px;
+    padding:20px;
+    border-color: #FFF;
+    border-radius:10px;
+}
+.button4{
+    box-sizing: content-box;
+    background-color:blue;
+    font-weight: bold;
+    font-size: 25px;
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:40px;
+    border-color: #FFF;
+    border-radius:5px;
+    margin-left:110px;
+}
+.button4:hover{
+    color:grey;
+}
+    :root {
+        --swiper-theme-color: #007aff;
+    }
+
+.button1:hover{
+    color:gray;
+}
+.button5{
+    background-color:blue;
+    font-weight: bold;
+    font-size: 29px;
+    color:white;
+    border-width: 90px;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-radius: 17px;
+    padding: 10px;
+    margin-right: 15px;
+}
+.button5:hover{
+    color:gray;
+}
